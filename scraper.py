@@ -84,8 +84,13 @@ def convert_mth_strings ( mth_string ):
 #### VARIABLES 1.0
 
 entity_id = "E0401_MKC_gov"
+<<<<<<< HEAD
 urls =['http://www.milton-keynes.gov.uk/your-council-and-elections/council-information-and-accounts/data-performance-and-spending/milton-keynes-council-spend-2015-16',
        "http://www.milton-keynes.gov.uk/your-council-and-elections/council-information-and-accounts/data-performance-and-spending/milton-keynes-council-spend-archive",]
+=======
+urls = ["https://www.milton-keynes.gov.uk/your-council-and-elections/council-information-and-accounts/data-performance-and-spending/milton-keynes-council-spend",
+       "http://www.milton-keynes.gov.uk/your-council-and-elections/council-information-and-accounts/data-performance-and-spending/Milton-Keynes-Council-spend-archive"]
+>>>>>>> 337ffed59e5326922483c1d1fd334eafc29992cf
 errors = 0
 data = []
 url = "http://example.com"
